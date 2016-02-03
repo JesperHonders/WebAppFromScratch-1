@@ -36,7 +36,7 @@ This repository holds all the asignments which are done for the course Web App F
 
 	Bronnen:
 		1st Webdesign. (2015, 5 januari). Pros And Cons Of Using Frameworks.
-		Geraadpleegd op 21 december 2015, van
+		Geraadpleegd op 1 februari 2015, van
 		http://1stwebdesigner.com/pros-cons-frameworks
 
 
@@ -54,18 +54,21 @@ This repository holds all the asignments which are done for the course Web App F
 		Betere Google rankings:
 			Je website scoort beter in google. Dat komt door omdat alles linkt naar dezelfde pagina. Ook heeft deze pagina een hoge concentratie van content.
 
-		Mobiele optimalisatie
-			
+		Mobiele optimalisatie:
+			Mobiele gebruikers rage quiten eerder als website's traag laden (of meerdere pagina's traag laden). Voor de mobiele gebruiker zijn single page website's en responsive websites dus een beter optie.
 
+	Nadelen:
 
-4. Mobile Preferred
+		Grote bestandsgroote:
+			Een grotere homepagina betekent langere laad tijd, maar wees gerust; bouw je website responsive en je hebt hier geen last van.
 
-A slush pile of statistics reveals that mobile users are more likely to rage quit out of a slow-loading site (or a site with several slow-loading pages), than desktop/laptop users, who can afford to be slightly more patient. So it should come as no surprise that single-page sites are the responsive design paradigm of choice for the mobile market.
+		Hoe hoger het risico, des te hoger de beloning:
+			Single page websites zijn niet de standaard. Je riskeert dat je gebruik zich onwennend voelt tijdens het gebruik. Probeer het wiel niet opnieuw uit te vinden, kijk naar voorbeelden.
 
-There’s also something to be said about the small size of smartphone screens. Limitations call for simplicity, so a single-page, “native application” frame of mind works in your favor.
+	Bronnen:
+		Apica. (2014, 1 april). Speed Up? The Pros and Cons of Single-Page Sites.
+		Geraadpleegd op 1 februari 2015, van
+		https://www.apicasystem.com/blog/speed-up-the-pros-and-cons-of-single-page-sites/
 
-5. Stand Out From The Crowd
-
-Lastly, single-page sites are still not the norm. Use this to your advantage, and join the ranks of the swelling single-page crowd. Single-page design is (at least for now) associated with lean and smart startups. Use that mainstream appeal to your advantage.
 
 
