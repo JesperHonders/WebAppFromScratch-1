@@ -1,0 +1,5 @@
+body 				{background:tomato;margin:0;}
+header nav 			{width:100%;position:fixed top;padding:1em;background:yellow;}
+section 			{padding:1em;}
+section#startscreen {background:grey;}
+section#list		{background:blue;}
