@@ -1,8 +1,8 @@
-(function(){
-	'use strict';
+(function(){ // IIFE: Alles blijft nu binnen de SCOPE van deze functie.
+	'use strict'; // Zorgt ervoor dat je niet slordig kan zijn met je code.
 
 	var app = {
-		init:function() {
+		init:function() {  // Method: een functie in een object.
 			routes.init();
             console.log("initialized")
 		}
