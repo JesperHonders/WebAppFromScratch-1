@@ -1,10 +1,10 @@
 (function(){ // IIFE: Alles blijft nu binnen de SCOPE van deze functie.
 	'use strict'; // Zorgt ervoor dat je niet slordig kan zijn met je code.
 
-	var app = {
+	var app = { // Object var die begint met {}. Heeft altijd een key en value.
 		init:function() {  // Method: een functie in een object.
 			routes.init();
-            console.log("initialized")
+            console.log("initialized") //this verwijst naar het object waar het inzit (var = app).
 		}
 	};
 
@@ -39,3 +39,7 @@
 	}
 	app.init();
 }());
+
+// Closeure zorgt ervoor dat alles binnen een bepaalde scope niet erbuiten aangesproken kan worden.
+// Constructor functie die begint met een hoofdletter.
+// variable hoisting, variabele wordt bovenaan in de scope aangemaakt,
