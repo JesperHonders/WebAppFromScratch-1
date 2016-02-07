@@ -4,13 +4,13 @@
 	var app = { // Object var die begint met {}. Heeft altijd een key en value.
 		init:function() {  // Method: een functie in een object.
 			routes.init();
-            console.log("initialized") //this verwijst naar het object waar het inzit (var = app).
+            console.log("initialized"); //this verwijst naar het object waar het inzit (var = app).
 		}
 	};
 
 	var routes = {
 		init:function() {
-			window.addEventListener("hashchange", function(HashChangeEvent){
+			window.addEventListener("hashchange", function(HashChangeEvent) {
                 
 				var hashLocationNew = HashChangeEvent.newURL.search("#");
                 var hashLocationOld = HashChangeEvent.oldURL.search("#");
@@ -25,12 +25,12 @@
 	var sections = {
 		toggle: function (newHash, oldHash) {
 			if(newHash === '#page2') {
-                document.getElementById("list").style.display = "block";
-                document.getElementById("home").style.display = "none";
+                document.getElementById("list").className = "show";
+                document.getElementById("home").className = "hide";
 			}
             else if(newHash === '#page1'){
-                document.getElementById("home").style.display = "block";
-                document.getElementById("list").style.display = "none";
+            	document.getElementById("home").className = "show";
+                document.getElementById("list").className = "hide";
             }
             else {
 
