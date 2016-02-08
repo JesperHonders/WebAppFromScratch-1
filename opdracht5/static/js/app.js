@@ -8,34 +8,23 @@
 		}
 	};
 
-	var routes = {
-		init:function() {
-			window.addEventListener("hashchange", function(HashChangeEvent) {
-                
-				var hashLocationNew = HashChangeEvent.newURL.search("#");
-                var hashLocationOld = HashChangeEvent.oldURL.search("#");
-                var newHash = HashChangeEvent.newURL.substr(hashLocationNew);
-                var oldHash = HashChangeEvent.oldURL.substr(hashLocationOld);
-                
-                sections.toggle(newHash, oldHash);
-			}, false);			
-		}
-	};
+	var routes = { // Deze code is vele male minder complex
+        init: function () {
+            window.addEventListener("hashchange", function (HashChangeEvent) {
+                var hash = location.hash
+                sections.toggle(hash);
+            }, false);
+        }
+    };
 
 	var sections = {
-		toggle: function (newHash, oldHash) {
-			if(newHash === '#page2') {
-                document.getElementById("list").className = "show";
-                document.getElementById("home").className = "hide";
-			}
-            else if(newHash === '#page1'){
-            	document.getElementById("home").className = "show";
-                document.getElementById("list").className = "hide";
+		toggle: function (hash) {
+            var content = select.all('.content')
+            for (var i = 0; i < content.length; i++) {
+                content[i].classList.add("none")
             }
-            else {
-
-			}
-		}
+            select.one(hash).classList.remove("none")
+        }
 	}
 	app.init();
 }());
